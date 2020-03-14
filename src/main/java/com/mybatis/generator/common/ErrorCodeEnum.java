@@ -13,7 +13,9 @@ public enum ErrorCodeEnum implements IErrorCode{
     SUCCESS(200,"success"),
     FAILED(500,"failure"),
     VALIDATE_FAILED(10001, "输入参数不合法"),
-    NOT_EXISTS(10002,"查询无结果")
+    NOT_EXISTS(10002,"查询无结果"),
+    HAS_SEND(10003,"验证码已发送，请稍后"),
+    CODE_ERROR(10004,"验证码错误"),
     ;
 
     private Integer code;

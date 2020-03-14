@@ -8,4 +8,8 @@ package com.mybatis.generator.config;
  * @Version 1.0
  **/
 public class RedisConsts {
+    
+    public static final Integer DATEBASE0 = 0;
+
+    public static final Integer DATEBASE1 = 1;
 }
