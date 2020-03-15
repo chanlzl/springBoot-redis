@@ -1,6 +1,6 @@
 package com.mybatis.generator.common;
 
-import sun.plugin2.message.Message;
+
 
 /**
  * @ClassName ErrorCodeEnum
